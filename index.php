@@ -68,6 +68,7 @@ if ($data != '') {
                         			hide: "false",
 						position: "top-left"
 					},
+     					cast:{},
                     			skin: {
                     				url: "https://cdn.jsdelivr.net/gh/kiprox/cf-gdplay@master/skins/netplex.css",
 		    				name: "Netflix"
