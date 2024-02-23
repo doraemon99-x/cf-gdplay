@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CFPlayer</title>
+	<title>TipiStream</title>
 	<meta name="robots" content="noindex">
 	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
