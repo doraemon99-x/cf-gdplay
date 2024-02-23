@@ -58,13 +58,13 @@ if ($data != '') {
 					primary: "html5",
 					autostart: false,
 					preload: "auto",
-					aboutlink: "",
+					aboutlink: "https://fb.com/delta.web.id",
 					abouttext: "CFPlayer",
 					image: "'.$poster.'",
 					logo: {
-						file: "https://i.postimg.cc/7hBXqptn/tipion.png",
-						link: "",
-                        			hide: "false",
+						file: "https://cdn.jsdelivr.net/gh/kiprox/cf-gdplay@master/assets/img/aio-playerlogo.png",
+						link: "https://fb.com/delta.web.id",
+                        			hide: "true",
 						position: "top-left"
 					},
                     			skin: {
