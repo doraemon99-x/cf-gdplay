@@ -54,6 +54,7 @@ if ($data != '') {
 				player.setup({
 					sources: '.$sources.',
 					aspectratio: "16:9",
+     					"stretching": "exactfit",
 					startparam: "start",
 					primary: "html5",
 					autostart: false,
