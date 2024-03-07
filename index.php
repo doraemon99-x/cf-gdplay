@@ -66,7 +66,7 @@ if ($data != '') {
 						file: "https://i.postimg.cc/7hBXqptn/tipion.png",
 						link: "",
                         			hide: "false",
-						position: "top-left"
+						position: "bottom-left"
 					},
      					cast:{},
                     			skin: {
