@@ -15,7 +15,7 @@ $anu  = curl_exec($ch);
 curl_close($ch);
 header('content-type: application/dash+xml');
 
-$anu = str_replace('initialization="', "initialization=\"https://gvp.tipiku.site/nonton.php?file={$urlpath}", $anu);
-$anu = str_replace('media="', "media=\"https://gvp.tipiku.site/nonton.php?file={$urlpath}", $anu); 
+$anu = str_replace('initialization="', "initialization=\"https://gvp.tipiku.site/tv.php?file={$urlpath}", $anu);
+$anu = str_replace('media="', "media=\"https://gvp.tipiku.site/tv.php?file={$urlpath}", $anu); 
 echo $anu;
 ?>
