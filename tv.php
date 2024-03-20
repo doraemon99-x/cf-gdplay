@@ -4,8 +4,7 @@ $filename = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
 $urlpath = str_replace($filename, '', $url);
 
 $header = [
-    'User-Agent: Dalvik/2.1.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0', 
-    'Referer: https://www.visionplus.id/'
+    'User-Agent: Dalvik/2.1.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0',
     ];
 
 $ch = curl_init($url);
