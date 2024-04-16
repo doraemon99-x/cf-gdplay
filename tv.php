@@ -5,6 +5,7 @@ $urlpath = str_replace($filename, '', $url);
 
 $header = [
     'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Origin: https://visionplus.id',
     'Referrer: https://visionplus.id/'
     ];
 
