@@ -4,7 +4,7 @@ $filename = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
 $urlpath = str_replace($filename, '', $url);
 
 $header = [
-    'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0',
     'Origin: https://visionplus.id',
     'Referrer: https://visionplus.id/'
     ];
