@@ -1,0 +1,35 @@
+name: cf-gdplay
+source:
+  repo: https://github.com/doraemon99-x/cf-gdplay
+  branch: main # Sesuaikan dengan branch yang ingin Anda gunakan
+dockerfile_path: Dockerfile
+env:
+  APP_KEY: # Tambahkan kunci aplikasi di sini
+  DB_CONNECTION: mysql
+  DB_HOST: # Tambahkan host database Anda di sini
+  DB_PORT: 3306
+  DB_DATABASE: # Tambahkan nama database Anda di sini
+  DB_USERNAME: # Tambahkan username database Anda di sini
+  DB_PASSWORD: # Tambahkan password database Anda di sini
+build:
+  context: .
+  dockerfile: Dockerfile
+deploy:
+  replicas: 1
+  autoscaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 5
+    cpu: 80
+    memory: 80
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "500m"
+  limits:
+    memory: "512Mi"
+    cpu: "1000m"
+ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
